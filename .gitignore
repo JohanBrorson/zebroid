@@ -1,0 +1,16 @@
+# Eclipse
+server/.classpath
+server/.project
+server/.settings/
+
+# IntelliJ
+server/.idea/
+server/*.iml
+
+# Build and unit tests
+server/test-output/
+server/target/
+server/dependency-reduced-pom.xml
+
+# OS
+.DS_Store
