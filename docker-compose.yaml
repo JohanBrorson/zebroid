@@ -11,7 +11,7 @@ services:
       - redis
 
   redis:
-    build: ./data
+    image: redis:4.0.11
     command: ["redis-server", "--appendonly", "yes"]
     hostname: redis
     networks:
