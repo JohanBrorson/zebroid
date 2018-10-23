@@ -1,0 +1,12 @@
+language: java
+
+sudo: false
+
+jdk:
+  - oraclejdk8
+
+install:
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -U -V -f server/pom.xml
+
+script:
+  - mvn test -B -f server/pom.xml
