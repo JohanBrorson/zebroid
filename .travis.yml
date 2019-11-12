@@ -6,8 +6,7 @@ os:
   - linux
 
 jdk:
-  - oraclejdk9
-  - openjdk8
+  - openjdk11
 
 install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -U -V -f server/pom.xml
